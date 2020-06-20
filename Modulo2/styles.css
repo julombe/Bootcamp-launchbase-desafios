@@ -41,6 +41,8 @@
     transition: color 20ms;
     }
 
+  
+
     /*estilizando wrapper, imagem do avatar, textos*/
 
     #wrapper {
@@ -100,22 +102,34 @@
     }
 
     .card {
-        background-color: var(--color-rocket);
+        background-color:  #51297D;;
+        border: 2px solid;
     }
 
     .card__image-container img {
-        width: 100%;
+        width: 90%;
+        padding: 10px;
+        margin: 0 auto;
+        justify-content: center;
+        height: 150px;
     }
 
     .card__content,
     .card__info {
         padding: 24px;
+        
+    }
+    .card__content p {
+        text-align: center;
     }
 
     .card__info {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        
     }
+
+
 
     .card__price {
         background-color: var(--color-rocket);
