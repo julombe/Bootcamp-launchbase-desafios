@@ -164,11 +164,19 @@
         text-align: center;
     }
 
+    .card__content p strong {
+        color: var(--color-rocket);
+    }
+
     .card__info {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
+
+        /*gap: 30px;*/
         
     }
+
+
 
 
 
@@ -178,6 +186,19 @@
         padding: 5px 20px;
         border-radius: 20px;
         text-align: center;
+    }
+
+
+    #starter {
+        --color-rocket: #6c4fbb;
+    }
+    
+    #launchbase {
+        --color-rocket: #fd951f;
+    }
+    
+    #gostack {
+        --color-rocket: #04d361;
     }
 
     
