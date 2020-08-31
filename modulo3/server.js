@@ -17,12 +17,10 @@ nunjucks.configure("views", {
 //create route
 
 server.get("/", function(req, res) {
-    return res.render("about")
+    return res.render("index")
 })
 
-server.get("/cursos", function(req, res) {
-    return res.render("cursos")
-})
+
 
 
 server.listen(5000, function() {
