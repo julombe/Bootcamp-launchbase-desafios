@@ -20,6 +20,10 @@ server.get("/", function(req, res) {
     return res.render("index")
 })
 
+server.get("/cursos", function(req, res) {
+    return res.render("cursos")
+})
+
 
 
 
