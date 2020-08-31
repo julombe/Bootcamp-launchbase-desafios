@@ -24,6 +24,7 @@ server.get("/cursos", function(req, res) {
     return res.render("cursos")
 })
 
+
 server.listen(5000, function() {
     console.log("server is running")
 })
