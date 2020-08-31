@@ -24,8 +24,8 @@ server.get("/", function(req, res) {
 server.get("/about", function(req, res) {
     return res.render("about")
 })
-server.get("/cursos", function(req, res) {
-    return res.render("cursos")
+server.get("/courses", function(req, res) {
+    return res.render("courses")
 })
 
 
