@@ -14,7 +14,7 @@ nunjucks.configure("views", {
     express: server
 })
 
-//create route
+//creating routes
 
 server.get("/", function(req, res) {
     return res.render("courses")
