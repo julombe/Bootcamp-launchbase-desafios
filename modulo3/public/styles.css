@@ -287,6 +287,23 @@
       margin: 0;
       font-weight: 900;
       letter-spacing: 20px;
-      background: url()
+      background: url(bg.jpg) center no-repeat;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
   }
 
+  .container a {
+      text-decoration: none;
+      background: #e55039aa;
+      color: #fff;
+      padding: 12px 24px;
+      display: inline-block;
+      border-radius: 25px;
+      font-size: 14px;
+      text-transform: uppercase;
+      transition: 0.4s;
+  }
+
+  .container a:hover {
+      background: #e55039;
+  }
