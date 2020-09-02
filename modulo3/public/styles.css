@@ -274,10 +274,19 @@
 
     /*===NOT FOUND===*/
 
-    .not-found img{
-        width: 80%;
-        position: fixed;
-        margin: 30px 100px;
-        
-    }
+  .container {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+  }
+
+  .container h1 {
+      font-size: 160px;
+      margin: 0;
+      font-weight: 900;
+      letter-spacing: 20px;
+      background: url()
+  }
 
