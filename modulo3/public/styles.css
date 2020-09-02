@@ -272,3 +272,11 @@
         margin: 0 auto;
     }
 
+    /*===NOT FOUND===*/
+
+    .not-found img{
+        width: 75%;
+        position: fixed;
+        margin: 30px 100px;
+    }
+
