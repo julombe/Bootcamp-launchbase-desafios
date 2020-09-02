@@ -283,11 +283,11 @@
   }
 
   .container h1 {
-      font-size: 160px;
+      font-size: 300px;
       margin: 0;
       font-weight: 900;
       letter-spacing: 20px;
-      background: url(bg.jpg) center no-repeat;
+      background: url(undraw_launch_day_4e04.svg) center no-repeat;
       -webkit-text-fill-color: transparent;
       background-clip: text;
   }
