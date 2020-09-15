@@ -6,10 +6,10 @@ const cards = document.querySelectorAll('.card')
 
 for (let card of cards) {
     card.addEventListener("click", function() {
-        const videoId = card.getAttribute("id"); // pega o id do video no html e faz com que abra na modal cada video clicado
+        const cursoId = card.getAttribute("id"); // pega o id do video no html e faz com que abra na modal cada video clicado
         modalOverlay.classList.add('active')
         
-        modalOverlay.querySelector("iframe").src = `https://www.youtube.com/embed/${videoId}` // Pegando o iframe
+        modalOverlay.querySelector("iframe").src = `https://app.rocketseat.com.br/embed/${cursoId}` // Pegando o iframe
     })
 }
 
