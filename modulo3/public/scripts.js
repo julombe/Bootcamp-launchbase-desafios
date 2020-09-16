@@ -9,7 +9,7 @@ for (let card of cards) {
         const cursoId = card.getAttribute("id"); // pega o id do video no html e faz com que abra na modal cada video clicado
         modalOverlay.classList.add('active')
         
-        modalOverlay.querySelector("iframe").src = `https://app.rocketseat.com.br/embed/${cursoId}` // Pegando o iframe
+        modalOverlay.querySelector("iframe").src = `https://app.rocketseat.com.br/${cursoId}` // Pegando o iframe
     })
 }
 
