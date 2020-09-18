@@ -29,6 +29,11 @@ server.get("/about", function(req, res) {
         name: "Rocketseat",
         description: 'Mais do que uma plataforma de educação em tecnologia, somos uma comunidade incrível de programadores em busca do próximo nível 🚀<a href="https://rocketseat.com.br" target="_blank">Rocketseat</a>',
         title: "Principais tecnologias utilizadas",
+        links: [
+            {name: "Github", url: "https://github.com/Rocketseat"},
+            {name: "Instagram", url: "https://www.instagram.com/rocketseat_oficial/?hl=pt"},
+            {name: "Github", url: "https://github.com/Rocketseat"},
+        ]
         
     }
     return res.render("about", {about})
