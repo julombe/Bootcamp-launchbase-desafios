@@ -143,6 +143,7 @@
         height: 65vh;
         transition: all .3 ease;
         cursor: pointer;
+        display: grid;
     }
 
 
