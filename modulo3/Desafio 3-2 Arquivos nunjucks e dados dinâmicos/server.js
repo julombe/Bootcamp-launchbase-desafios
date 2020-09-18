@@ -24,6 +24,12 @@ server.get("/", function(req, res) {
 
 
 server.get("/about", function(req, res) {
+    const about = {
+        avatar_url: "https://pbs.twimg.com/profile_images/1291682473592659968/sEorc6oh_400x400.jpg",
+        name: "Rocketseat",
+        description: 'Mais do que uma plataforma de educação em tecnologia, somos uma comunidade incrível de programadores em busca do próximo nível 🚀<a href="https://rocketseat.com.br" target="_blank">Rocketseat</a>',
+        
+    }
     return res.render("about")
 })
 
