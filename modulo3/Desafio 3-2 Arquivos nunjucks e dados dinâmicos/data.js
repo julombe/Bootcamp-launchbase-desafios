@@ -15,10 +15,10 @@ module.exports = [
         price: "Pago"
     },
     {
-        id: "starter",
-        img: "https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/starter.svg",
-        description: "<strong>Torne-se um programador desejado</strong> no mercado com esses cursos gratuitos",
-        module: "5 módulos",
-        price: "Gratuito"
+        id: "gostack",
+        img: "https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/gostack.svg",
+        description: "<strong>Treinamento imersivo</strong> nas tecnologias mais modernas de desenvolvimento web e mobile",
+        module: "13 módulos",
+        price: "Pago"
     }
 ]
