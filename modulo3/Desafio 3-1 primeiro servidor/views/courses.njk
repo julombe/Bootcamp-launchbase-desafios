@@ -1,0 +1,110 @@
+{% extends "layout.njk" %}
+
+
+ {% block head %}
+    <title>Cursos</title>
+    
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     
+ {% endblock %}
+
+{% block content %}
+
+
+    <div id="wrapper">
+           <h1>Cursos</h1>
+    </div>
+
+    <section class="cards">
+
+       <div class="card" id="starter">
+           <img src="https://app.rocketseat.com.br/starter" alt="">
+           <span class="card__number">
+               01
+           </span>
+        <div class="card__image-container">
+        <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/starter.svg" alt="Logo Curso starter">
+    </div>
+
+    <div class="card__content">
+        <p><strong>Torne-se um programador desejado</strong> no mercado com esses cursos gratuitos</p>
+    </div>
+
+    <div class="card__info">
+        <p>5 módulos</p>
+        <p class="card__price">Gratuito</p>   
+    </div>
+       </div>
+
+             <div class="card" id="launchbase">
+             <span class="card__number">
+             02
+             </span>
+        <div class="card__image-container">
+        <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/launchbase.svg" alt="Logo Curso Launchbase">
+    </div>
+
+    <div class="card__content">
+        <p><strong>Domine a programação do zero</strong> e tenha acesso ás melhores oportunidades do mercado</p>
+    </div>
+
+    <div class="card__info">
+        <p>16 módulos</p>
+        <p class="card__price">Pago</p>
+        
+    </div>
+       </div>
+
+             <div class="card" id="gostack">
+             <span class="card__number">
+             03
+             </span>
+        <div class="card__image-container">
+        <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/gostack.svg" alt="Logo Curso GoStack">
+    </div>
+
+    <div class="card__content">
+        <p><strong>Treinamento imersivo</strong> nas tecnologias mais modernas de desenvolvimento web e mobile</p>
+    </div>
+
+    <div class="card__info">
+        <p>13 módulos</p>
+        <p class="card__price">Pago</p>
+        
+    </div>
+       </div>
+    
+   </section>
+
+   
+    <!----Modal -->
+
+   <div class="modal-overlay">
+          <div class="modal">
+
+               <a class="maximize-modal">
+                   <i class="material-icons">maximize</i>
+              </a>
+
+              <a class="close-modal">
+                  <i class="material-icons">close</i>
+              </a>
+
+
+              <div class="modal-content">
+                  <iframe src="" frameborder="0"></iframe>
+              </div>
+          </div>     
+   </div>
+
+   
+   
+    <div id="links-footer" class="links">
+        <a href="https://github.com/Rocketseat" target="_blank"><img src="https://image.flaticon.com/icons/svg/733/733553.svg" alt="Github"></a>
+        <a href="https://www.instagram.com/rocketseat_oficial/?hl=pt" target="_blank"><img src="https://image.flaticon.com/icons/svg/2111/2111463.svg" alt="Instagram"></a>
+         <a href="https://www.facebook.com/rocketseat/" target="_blank"><img src="https://image.flaticon.com/icons/svg/2111/2111398.svg" alt="Facebook"></a>
+    </div>
+
+    <script src="scripts.js"></script>
+
+{% endblock %}
