@@ -3,6 +3,7 @@ const express = require('express')
 const nunjucks = require('nunjucks')
 
 const server = express()
+const courses = require("./data") //calling array
 
 //chamando o css
 server.use(express.static('public'))
@@ -17,7 +18,7 @@ nunjucks.configure("views", {
 //creating routes
 
 server.get("/", function(req, res) {
-    return res.render("courses")
+    return res.render("courses", { items: courses })
 })
 
 
