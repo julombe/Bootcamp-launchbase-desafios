@@ -8,15 +8,17 @@
 
 
     <div id="wrapper">
-           <h1>Cursos</h1>
+           <h1>{{Cursos}}</h1>
     </div>
 
-    <section class="cards">
+    <section class="course">
        <div class="card" id="{{item.id}}">
            <span class="card__number">
                01
            </span>
-        <div class="card__image-container">
+        <div class="card__course-container">
+            <iframe src="https://app.rocketseat.com.br/embed/{{item.id}}" frameborder="0"></iframe>
+
         <img src="{{item.img}}" alt="Logo Curso starter">
     </div>
 
