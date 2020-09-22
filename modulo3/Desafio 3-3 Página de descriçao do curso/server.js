@@ -44,6 +44,13 @@ server.use(function(req, res) {
     res.status(404).render("not-found");
   });
 
+
+  //adicionando rota da página do curso
+  server.get("/courses", function(req, res) {
+      const id = req.query.id
+       res.send(id)
+  })
+
 server.listen(5000, function() {
     console.log("server is running")
 })
