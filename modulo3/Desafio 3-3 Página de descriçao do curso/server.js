@@ -46,9 +46,17 @@ server.use(function(req, res) {
 
 
   //adicionando rota da página do curso
-  server.get("/course", function(req, res) {
-      const id = req.query.id
-       res.send(id)
+  server.get("/courses", function(req, res) {
+      const id = req.params.id;
+       
+      const course = courses.find(function(course) {
+          return course.id == id
+      })
+      if (!course) {
+          return res.send("course not found!")
+      }
+
+      return res.render("course", { item: course})
   })
 
 server.listen(5000, function() {
