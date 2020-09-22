@@ -1,0 +1,40 @@
+{% extends "layout.njk" %}
+
+ {% block head %}
+    <title>{{item.title}}</title>     
+ {% endblock %}
+
+{% block content %}
+
+
+    <div id="wrapper">
+           <h1>{{item.title}}</h1>
+    </div>
+
+    <section class="cards">
+       <div class="card" id="{{item.id}}">
+           <span class="card__number">
+               01
+           </span>
+        <div class="card__image-container">
+        <img src="{{item.img}}" alt="Logo Curso starter">
+    </div>
+
+    <div class="card__content">
+        <p>{{item.description}}</p>
+    </div>
+
+    <div class="card__info">
+        <p>{{item.module}}</p>
+        <p class="card__price">{{item.price}}</p>   
+    </div>
+       </div>
+    
+   </section>
+   
+    <div id="links-footer" class="links">
+        <a href="https://github.com/Rocketseat" target="_blank"><img src="https://image.flaticon.com/icons/svg/733/733553.svg" alt="Github"></a>
+        <a href="https://www.instagram.com/rocketseat_oficial/?hl=pt" target="_blank"><img src="https://image.flaticon.com/icons/svg/2111/2111463.svg" alt="Instagram"></a>
+         <a href="https://www.facebook.com/rocketseat/" target="_blank"><img src="https://image.flaticon.com/icons/svg/2111/2111398.svg" alt="Facebook"></a>
+    </div>
+{% endblock %}

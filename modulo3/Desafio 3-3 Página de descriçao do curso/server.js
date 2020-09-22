@@ -40,24 +40,30 @@ server.get("/about", function(req, res) {
 })
 
 
+
+
+  //adicionando rota da página do curso
+  server.get("/courses/:id", function(req, res) {
+    const id = req.params.id
+     
+    const course = courses.find(function (course){
+        return course.id == id
+    })
+
+    if (!course) {
+    return res.render("not-found")
+    }
+
+    return res.render("course", { item: course })
+})
+
+
+
 server.use(function(req, res) {
     res.status(404).render("not-found");
   });
 
 
-  //adicionando rota da página do curso
-  server.get("/courses", function(req, res) {
-      const id = req.params.id;
-       
-      const course = courses.find(function(course) {
-          return course.id == id
-      })
-      if (!course) {
-          return res.send("course not found!")
-      }
-
-      return res.render("course", { item: course})
-  })
 
 server.listen(5000, function() {
     console.log("server is running")
