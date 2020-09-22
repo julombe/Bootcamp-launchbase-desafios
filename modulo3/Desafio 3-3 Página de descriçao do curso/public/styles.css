@@ -323,8 +323,7 @@
   }
 
   .course .card {
-
-  cursor: initial;
+    cursor: initial;
 }
 
 .card__course-container {
@@ -338,4 +337,6 @@
     position: absolute;
     top: 0;
 }
+
+
 
