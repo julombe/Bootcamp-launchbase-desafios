@@ -10,10 +10,12 @@ server.use(express.static('public'))
 
 //configure template engine(nunjucks)
 
-server.set("view engine", "njk")
+server.set("view engine", "njk")   //setar qual é o motor de views da app, qual é a extensão dos arquivos para abrir 
 nunjucks.configure("views", {
-    express: server,
-    autoescape: false
+    express: server,               //indica ao nunjucks que vamos usar o Express com a var Server
+    autoescape: false,             //impede que o nunjucks mostre o codigo html em variaveis
+    noCache: true                  //bloqueando o cache do nunjucks         
+    
 })
 
 //creating routes
