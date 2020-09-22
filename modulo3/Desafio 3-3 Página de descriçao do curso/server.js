@@ -46,7 +46,7 @@ server.use(function(req, res) {
 
 
   //adicionando rota da página do curso
-  server.get("/courses", function(req, res) {
+  server.get("/course", function(req, res) {
       const id = req.query.id
        res.send(id)
   })
