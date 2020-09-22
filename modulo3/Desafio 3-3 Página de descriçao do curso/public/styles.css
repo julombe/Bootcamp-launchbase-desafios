@@ -322,11 +322,8 @@
       max-width: 800px;
   }
 
-  .course .card {
-    cursor: initial;
-}
 
-.card__course-container {
+  .card__course-container {
     position: relative;
     padding-top: 62.5%;
 }
