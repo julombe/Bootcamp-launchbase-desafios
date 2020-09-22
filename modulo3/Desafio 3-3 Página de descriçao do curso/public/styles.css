@@ -315,3 +315,9 @@
   .container a:hover {
       background: var(--color-rocket);
   }
+
+  /*===COURSE PAGE===*/
+  .course {
+      margin: 0 auto;
+      max-width: 800px;
+  }

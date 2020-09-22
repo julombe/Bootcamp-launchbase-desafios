@@ -1,6 +1,6 @@
 
-const express = require('express')
-const nunjucks = require('nunjucks')
+const express = require('express')    //importando a biblioteca do express
+const nunjucks = require('nunjucks')  //importando a biblioteca do nunjucks
 
 const server = express()
 const courses = require("./data") //calling array
