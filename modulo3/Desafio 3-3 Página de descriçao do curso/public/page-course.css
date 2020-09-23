@@ -1,0 +1,129 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap";
+
+:root {
+    --color-green: #50fa7b;
+    /*--color-rocket: #6c4fbb;*/
+    --color-rocket: #7159c1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+    
+
+    body {
+    background: #282a36;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    }
+
+    header {
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background: rgba(0, 0, 0, 0.1)
+    }
+
+    .links {
+    text-align: center;
+    }
+
+    .links a {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    /*margin: 0 16px;*/
+    text-decoration: none;
+
+    margin-left: 30px;
+    font-weight: 500;
+    }
+
+    .links a:hover {
+    color: var(--color-rocket);
+    transition: color 300ms;
+    }
+
+  
+
+    /* ===CARDS ===*/
+
+    .course {
+        max-width: 800px;
+        margin: 0 auto;
+        display: grid;
+       
+        
+    }
+
+    .card_course {
+        background-color:  #51297D;
+        border: 2px solid;
+        border: solid 2px var(--color-rocket);
+        border-radius: 8px;
+        background-color: rgba(0, 0, 0, 0.1);
+        height: 65vh;
+        
+        display: grid;
+    }
+
+    .card__course-container img {
+        width: 100%;
+        padding: 10px;
+        margin: 0 auto;
+        justify-content: center;
+        height: 150px;
+    }
+   
+    .card__content_course,
+    .card__info_course {
+        padding: 24px;
+        
+    }
+    .card__content_course p {
+        text-align: center;
+    }
+
+    .card__content_course p strong {
+        color: var(--color-rocket);
+    }
+
+    .card__info_course {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;        
+    }
+
+    .card_course .card__number_course {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border: 2px solid var(--color-rocket);
+        line-height: 34px;
+        width: 60px;
+        height: 60px;
+        margin: 20px auto;  
+    }
+
+    .card__price_course {
+        background-color: var(--color-rocket);
+        filter: brightness(90%);
+        padding: 5px 20px;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+
+    #starter {
+        --color-rocket: #6c4fbb;
+    }
+    
+    #launchbase {
+        --color-rocket: #fd951f;
+    }
+    
+    #gostack {
+        --color-rocket: #04d361;
+    }

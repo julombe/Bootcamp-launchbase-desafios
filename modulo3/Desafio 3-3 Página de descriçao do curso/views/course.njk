@@ -1,7 +1,8 @@
 {% extends "layout.njk" %}
 
  {% block head %}
-    <title>{{item.id}}</title>     
+    <title>{{item.id}}</title>   
+    <link rel="stylesheet" href="/page-course.css">  
  {% endblock %}
 
 {% block content %}
@@ -12,23 +13,23 @@
     </div>
 
     <section class="course">
-       <div class="card" id="{{item.id}}">
-           <span class="card__number">
+       <div class="card_course" id="{{item.id}}">
+           <span class="card__number_course">
                01
            </span>
         <div class="card__course-container">
-            <iframe src="https://app.rocketseat.com.br/{{item.id}}" frameborder="0"></iframe>
+            <!--<iframe src="https://app.rocketseat.com.br/{{item.id}}" frameborder="0"></iframe>-->
 
         <img src="{{item.img_url}}" alt="{{item.id}}">
     </div>
 
-    <div class="card__content">
+    <div class="card__content_course">
         <p>{{item.description}}</p>
     </div>
 
-    <div class="card__info">
+    <div class="card__info_course">
         <p>{{item.module}}</p>
-        <p class="card__price">{{item.price}}</p>   
+        <p class="card__price_course">{{item.price}}</p>   
     </div>
        </div>
    </section> 
