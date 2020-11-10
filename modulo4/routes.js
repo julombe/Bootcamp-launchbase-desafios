@@ -3,7 +3,16 @@ const routes = express.Router()
 
 // create routes
 routes.get('/', function(req, res) {
-    return res.render("about")
+    return res.redirect("teachers")
+})
+
+routes.get('/teachers', function(req, res) {
+    return res.render("teachers")
+})
+
+
+routes.get('/students', function(req, res) {
+    return res.render("students")
 })
 
 module.exports = routes
