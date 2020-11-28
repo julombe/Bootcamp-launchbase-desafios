@@ -60,3 +60,12 @@ header {
   width: 100%;
   transition: width 200ms ease-in-out 1s;
 }
+
+/*Estilos card*/
+
+.card {
+  width: 800px;
+  height: 400px;
+  background-color: white;
+  margin: 45px auto;
+}
