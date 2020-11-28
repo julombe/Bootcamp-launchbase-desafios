@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #7159c1;
-  --secondary-color: #F7DF1E;
+  --secondary-color: #f7df1e;
 }
 
 * {
@@ -127,10 +127,16 @@ header {
 }
 
 .details h3 {
-text-transform: uppercase;
-color: var(--secondary-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--primary-color);
 }
 
 /*estilizando span*/
-
-.
+.details .item span {
+  padding: 8px 16px;
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+  color: #777;
+  margin-right: 4px;
+}
