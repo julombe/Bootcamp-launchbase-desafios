@@ -65,7 +65,7 @@ header {
 
 .card {
   width: 800px;
-  height: 400px;
+  min-height: 400px;
   background-color: white;
   margin: 45px auto;
 
@@ -96,4 +96,9 @@ header {
 
 .details {
   padding: 32px;
+}
+
+.details .item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 16px 0;
 }
