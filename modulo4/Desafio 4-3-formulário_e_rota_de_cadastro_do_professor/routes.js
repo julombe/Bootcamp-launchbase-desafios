@@ -15,4 +15,6 @@ routes.get('/students', function(req, res) {
     return res.render("students")
 })
 
+
+
 module.exports = routes
