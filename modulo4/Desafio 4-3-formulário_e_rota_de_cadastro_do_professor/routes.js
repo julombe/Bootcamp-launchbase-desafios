@@ -11,13 +11,17 @@ routes.get('/teachers', function(req, res) {
 })
 
 
-routes.get('/students', function(req, res) {
-    return res.render("students")
-})
 
 routes.get('/teachers/create', function(req, res) {
     return res.render("teachers/create")
 })
+
+
+routes.get('/students', function(req, res) {
+    return res.render("students")
+})
+
+
 
 
 
