@@ -5,7 +5,7 @@ const routes = require('./routes')
 
 const server = express()
 
-server.use(express.urlencoded({ extended : true}))
+server.use(express.urlencoded({ extended : true})) //linha responsável para funcionar o req.body
 server.use(express.static('public')) // 5 chamando o css
 server.use(routes)
 
