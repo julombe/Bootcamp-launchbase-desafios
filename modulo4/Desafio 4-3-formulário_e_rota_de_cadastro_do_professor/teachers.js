@@ -11,9 +11,7 @@ exports.post = function(req, res) {
 
 
     return res.send("req.body") 
-})
+}
 
 
-routes.get('/students', function(req, res) {
-    return res.render("students")
-})
+
