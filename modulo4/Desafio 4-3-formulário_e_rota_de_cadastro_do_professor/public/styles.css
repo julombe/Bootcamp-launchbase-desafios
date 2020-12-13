@@ -147,10 +147,15 @@ input {
   outline: none;
   color: #555;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 input[type="radio"] {
   width: initial;
   margin-right: 4px;
+}
+
+input::placeholder {
+  font-size: 16px;
+  font-weight: normal;
 }
