@@ -17,7 +17,7 @@ routes.get('/teachers/create', function(req, res) {
 })
 
 routes.post('/teachers', function(req, res) { 
-    return res.send("Recebido") 
+    return res.send("req.body") 
 })
 
 
