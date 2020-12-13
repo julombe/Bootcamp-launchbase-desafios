@@ -139,3 +139,10 @@ header {
   text-transform: uppercase;
   font-size: 12px;
 }
+
+/*Estilização FORM*/
+
+input {
+  width: 100%;
+  outline: none;
+}
