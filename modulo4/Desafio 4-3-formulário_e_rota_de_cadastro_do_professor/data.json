@@ -23,6 +23,14 @@
       "select": "Ensino superior completo",
       "tipo_aula": "on",
       "services": "Matemática"
+    },
+    {
+      "avatar_url": "http://www.google.com",
+      "name": "jose.ulombe",
+      "birth": "2020-12-18",
+      "select": "middle",
+      "type_of_class": "on",
+      "services": "Física"
     }
   ]
 }
