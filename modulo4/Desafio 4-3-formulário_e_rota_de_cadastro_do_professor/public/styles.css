@@ -176,4 +176,5 @@ button[type="submit"] {
   border-radius: 4px;
   font-size: 16px;
   width: 100%;
+  cursor: pointer;
 }
