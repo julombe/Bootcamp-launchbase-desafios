@@ -169,3 +169,10 @@ button[type="submit"] {
   color: white;
   font-size: 16px;
 }
+
+.select-css {
+  outline: none;
+  border: 2px solid grey;
+  border-radius: 20px;
+  width: 100%;
+}
