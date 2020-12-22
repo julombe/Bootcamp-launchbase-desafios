@@ -8,6 +8,16 @@
       "type_of_class": "on",
       "services": "Crossfit",
       "created_at": 1608613817211
+    },
+    {
+      "avatar_url": "http://www.google.com",
+      "name": "José Ulombe",
+      "birth": 1607990400000,
+      "select": "Ensino superior completo",
+      "type_of_class": "on",
+      "services": "Crossfit",
+      "created_at": 1608614773573,
+      "id": 2
     }
   ]
 }
