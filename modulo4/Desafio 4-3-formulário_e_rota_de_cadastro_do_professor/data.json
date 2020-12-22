@@ -1,11 +1,14 @@
 {
   "teachers": [
     {
-      "avatar_url": "http://www.google.com",
-      "birth": 1607904000000,
       "id": 1,
-      "created_at": 1608615896168,
-      "name": "José Ulombe"
+      "avatar_url": "http://www.google.com",
+      "name": "José Ulombe",
+      "birth": 1608595200000,
+      "select": "middle",
+      "type_of_class": "on",
+      "services": "Física",
+      "created_at": 1608616757391
     }
   ]
 }
