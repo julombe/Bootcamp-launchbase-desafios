@@ -2,69 +2,21 @@
   "teachers": [
     {
       "avatar_url": "http://www.google.com",
+      "name": "jose.ulombe",
+      "birth": -23895561600000,
+      "select": "Mestrado e Doutorado",
+      "type_of_class": "on",
+      "services": "Física",
+      "created_at": 1608613755337
+    },
+    {
+      "avatar_url": "http://www.google.com",
       "name": "José Valeriano",
-      "birth": "2020-12-15",
-      "select": "full",
-      "tipo_aula": "on",
-      "services": "Matemática"
-    },
-    {
-      "avatar_url": "http://www.google.com",
-      "name": "José Ulombe",
-      "birth": "1212-12-12",
-      "select": "full",
-      "tipo_aula": "on",
-      "services": "Física"
-    },
-    {
-      "avatar_url": "http://www.google.com",
-      "name": "jose.ulombe",
-      "birth": "2020-12-17",
-      "select": "Ensino superior completo",
-      "tipo_aula": "on",
-      "services": "Matemática"
-    },
-    {
-      "avatar_url": "http://www.google.com",
-      "name": "jose.ulombe",
-      "birth": "2020-12-18",
+      "birth": 1608681600000,
       "select": "middle",
       "type_of_class": "on",
-      "services": "Física"
-    },
-    {
-      "avatar_url": "http://www.google.com",
-      "name": "jose.ulombe",
-      "birth": "2020-12-22",
-      "select": "Ensino superior completo",
-      "type_of_class": "on",
-      "services": "Matemática"
-    },
-    {
-      "avatar_url": "http://www.google.com",
-      "name": "Teste",
-      "birth": "2020-12-21",
-      "select": "doctor",
-      "type_of_class": "on",
-      "services": "Física"
-    },
-    {
-      "avatar_url": "http://www.google.com",
-      "name": "Teste",
-      "birth": "1212-12-12",
-      "select": "Ensino superior completo",
-      "type_of_class": "on",
-      "services": "Física",
-      "created_at": 1608613052592
-    },
-    {
-      "avatar_url": "http://www.google.com",
-      "name": "Teste",
-      "birth": "1212-12-12",
-      "select": "Ensino superior completo",
-      "type_of_class": "on",
-      "services": "Física",
-      "created_at": 1608613054333
+      "services": "Crossfit",
+      "created_at": 1608613817211
     }
   ]
 }
