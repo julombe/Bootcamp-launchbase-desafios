@@ -2,15 +2,6 @@
   "teachers": [
     {
       "avatar_url": "http://www.google.com",
-      "name": "jose.ulombe",
-      "birth": -23895561600000,
-      "select": "Mestrado e Doutorado",
-      "type_of_class": "on",
-      "services": "Física",
-      "created_at": 1608613755337
-    },
-    {
-      "avatar_url": "http://www.google.com",
       "name": "José Valeriano",
       "birth": 1608681600000,
       "select": "middle",
