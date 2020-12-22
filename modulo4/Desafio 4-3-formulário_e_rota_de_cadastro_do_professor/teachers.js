@@ -11,12 +11,23 @@ exports.post = function (req, res) {
     }
   }
 
-  req.body.birth = Date.parse(req.body.birth)
-  req.body.created_at = Date.now()
-  req.body.id = Number(data.teachers.length +1 )
+  let {avatar_url, birth, name, gender} = req.body
+
+  birth = Date.parse(birth)
+  const created_at = Date.now()
+  const id = Number(data.teachers.length +1 )
+
+  
 
 
-  data.teachers.push(req.body)
+  data.teachers.push({
+    avatar_url,
+    birth,
+    id,
+    created_at,
+    name,
+    gender,
+  })
 
   fs.writeFile("data.json", JSON.stringify(data, null, 2), function (err) {
     if (err) return res.send("Write file error!");
